@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My Page v2 - personal profile">
+    <title>My Page v2 | Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://images.unsplash.com">
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navigation" aria-label="เมนูหลัก">
+        <a class="brand" href="index.html">MY PAGE <span>V2</span></a>
+        <a class="button button-light" href="contact.html">ติดต่อฉัน</a>
+      </nav>
+
+      <div class="hero-content">
+        <img class="profile-photo" src="pf.jpg" alt="รูปโปรไฟล์ตัวอย่างของนักศึกษา">
+        <div>
+          <p class="eyebrow">STUDENT PROFILE</p>
+          <h1>Tanawat Chantarawong</h1>
+          <p class="intro">นักศึกษาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</p>
+          <div class="identity" aria-label="ข้อมูลส่วนตัว">
+            <span>นักศึกษา Full Stack Web Development</span>
+            <span>Engineer and Technology : CAI</span>
+            <span>Panyapiwat Institute of Management</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" aria-labelledby="favourites-title">
+        <p class="section-label">FAVOURITES</p>
+        <h2 id="favourites-title">3 สิ่งที่ชอบทำ</h2>
+        <ul class="favourite-list">
+          <li><strong>ออกแบบระบบ</strong><span>ชอบคิดและสร้างสรรค์ ระบบที่ใช้งานง่ายและปลอดภัย</span></li>
+          <li><strong>เรียนรู้เทคโนโลยี</strong><span>ทดลอง HTML, CSS และเครื่องมือใหม่ ๆ</span></li>
+          <li><strong>ฟังเพลงและถ่ายรูป</strong><span>หามุมมองการออกแบบระบบ Frontend และ Backend</span></li>
+        </ul>
+      </section>
+
+      <section class="section two-columns" aria-label="ประวัติและประสบการณ์">
+        <div>
+          <p class="section-label">ABOUT ME</p>
+          <h2>เกี่ยวกับฉัน</h2>
+          <p>ฉันชอบแก้ปัญหาอย่างเป็นขั้นตอน และการออกแบบต้องใช้งานสะดวก เข้าใจผู้ใช้จริง</p>
+          <p>เป้าหมายของฉันคือพัฒนาทักษะด้านเว็บให้สามารถสร้างงานที่มีประโยชน์ต่อผู้ใช้ได้จริง</p>
+        </div>
+        <div>
+          <p class="section-label">EXPERIENCE</p>
+          <h2>ประสบการณ์การทำงาน</h2>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ปี</th><th>สถานที่/บทบาท</th></tr></thead>
+              <tbody>
+                <tr><td>2025-2026</td><td>7-Eleven - Employee</td></tr>
+                <tr><td>2024</td><td>Thailand Volleyball Association - IT Support Intern</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" aria-labelledby="skills-title">
+        <p class="section-label">SKILLS</p>
+        <h2 id="skills-title">ทักษะและระดับความสามารถ</h2>
+        <div class="table-wrap">
+          <table class="skills-table">
+            <thead><tr><th>ทักษะ</th><th>ระดับ</th><th>ประสบการณ์</th><th>สิ่งที่ทำได้</th></tr></thead>
+            <tbody>
+              <tr><td>HTML</td><td><span class="rating" aria-label="4 จาก 5 ดาว"><span>★★★★</span>☆</span></td><td>3 ปี</td><td>สร้างโครงสร้างหน้าเว็บที่เป็นระเบียบ</td></tr>
+              <tr><td>CSS</td><td><span class="rating" aria-label="4 จาก 5 ดาว"><span>★★★★</span>☆</span></td><td>3 ปี</td><td>จัดเลย์เอาต์และออกแบบให้ตอบสนองทุกหน้าจอ</td></tr>
+              <tr><td>JavaScript</td><td><span class="rating" aria-label="2 จาก 5 ดาว"><span>★★</span>☆☆☆</span></td><td>กำลังเรียนรู้</td><td>เพิ่มการโต้ตอบเบื้องต้นให้เว็บไซต์</td></tr>
+              <tr><td>English</td><td><span class="rating" aria-label="2 จาก 5 ดาว"><span>★★</span>☆☆☆</span></td><td>ต่อเนื่อง</td><td>อ่านเอกสารและเรียนรู้จากแหล่งข้อมูลสากล</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div><a href="https://github.com/ZentiaLAB/" target="_blank" rel="noreferrer">GitHub</a><a href="contact.html">Contact</a></div>
+    </footer>
+  </body>
+</html>
